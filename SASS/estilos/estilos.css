@@ -1,0 +1,15 @@
+div > h1 {
+  display: inline-block;
+}
+
+span {
+  background-color: aqua;
+  opacity: 0;
+}
+span:hover {
+  background-color: brown;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+/*# sourceMappingURL=estilos.css.map */

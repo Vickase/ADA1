@@ -1,0 +1,62 @@
+$color1: crimson;
+$color2: teal;
+$color3: tomato;
+
+.container {
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  .item {
+    height: 250px;
+    width: 250px;
+    &:nth-child(1) {
+      background-color: $color1;
+      color: white;
+    }
+    &:nth-child(2) {
+      background-color: $color2;
+      color: white;
+    }
+    &:nth-child(3) {
+      background-color: $color3;
+      color: white;
+    }
+  }
+}
+
+.c1 {
+  flex-direction: row;
+  justify-content: space-evenly;
+  > .item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+.c2 {
+  flex-direction: row-reverse;
+  > .item {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.c3 {
+  flex-direction: column;
+}
+
+.c4 {
+  flex-direction: column-reverse;
+}
+.c5 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.c6 {
+  flex-direction: row-reverse;
+  align-items: stretch; 
+  justify-content: flex-end;
+  height: 450px;
+  > .item {
+    height: auto;
+  }
+}

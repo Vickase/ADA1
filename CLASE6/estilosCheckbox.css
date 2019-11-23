@@ -1,0 +1,34 @@
+.fondo{
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    background: url('checkbox.png') center no-repeat;
+    background-size: 250px;
+    
+    
+}
+.checkbox{
+    display: none;
+}
+label{
+    cursor: pointer;
+}
+.checkbox:checked + .izquierda{ /*o sino input [type=checkbox]  pero todavía no lo vimos*/
+    cursor: pointer;
+    background-position: -174px; 
+
+}
+.izquierda{
+    background-position: -25px;
+}
+
+/*.izquierda:hover{
+    cursor: pointer;
+    background-position: -174px; 
+}*/
+.centro{   
+    background-position: center;
+}
+.derecha{   
+    background-position: -174px;
+}

@@ -1,0 +1,121 @@
+#about-us {
+  padding: $padding-general;
+  .texto {
+    font-family: $font-texto;
+    font-size: $fontsize-reg;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px 0px 50px;
+  }
+  .gente {
+    img {
+      width: 360px;
+      height: 250px;
+      vertical-align: middle;
+    }
+  }
+  .general {
+    article {
+      .primero {
+        text-align: left;
+        font-family: $font-texto;
+        font-size: $fontsize-reg;
+        line-height: 24px;
+      }
+    }
+  }
+
+
+ .icono{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    float: left;
+    border: 2px solid #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+.fa{
+    font-size: 25px;
+    color: #007bff;
+    display: inline-block;
+    }
+  }
+}
+
+
+.Ei {
+    font-family: $font-title;
+    font-weight: $font-weight-subtitulos;
+    margin: 0px 0px 0px 81px;
+    font-size: 15px;
+  }
+.segundo {
+     display: inline-block;
+     text-align: left;
+     font-weight: $font-weight-texto;
+     font-family: $font-texto;
+     font-size: $fontsize-sm;
+     padding: 0px 24px 33px 81px;
+     margin: -39px 0px 0px 0px;
+     line-height: 24px;
+  }
+
+    
+.Mag {
+     font-family: $font-title;
+     font-weight: $font-weight-subtitulos;
+     margin: 0px 0px 0px 81px;
+     font-size: 15px;
+  }
+ .tercero{
+    display: inline-block;
+    text-align: left;
+    font-weight: $font-weight-texto;
+    font-family: $font-texto;
+    font-size: $fontsize-sm;
+    padding: 0px 24px 33px 81px;
+    margin: -39px 0px 0px 0px;
+    line-height: 24px;
+  }
+      
+.Dol{
+   font-family: $font-title;
+   font-weight: $font-weight-subtitulos;
+   margin: 0px 0px 0px 81px;
+  font-size: 15px;
+ }
+ .cuarto{
+   display: inline-block;
+   text-align: left;
+   font-weight: $font-weight-texto;
+   font-family: $font-texto;
+   font-size: $fontsize-sm;
+   padding: 0px 24px 33px 81px;
+   margin: -39px 0px 0px 0px;
+   line-height: 24px;
+ }
+.general2{
+    img {
+      width: 360px;
+      height: 250px;
+      vertical-align: middle;
+      padding: $padding-general;
+      }
+        
+    .Sub{
+      padding: $padding-general;
+      font-family: $font-texto;
+      font-weight: $font-weight-subtitulos;
+      color: $font-color-sub-aboutus;
+      }
+    .dos{
+      padding: $padding-general;
+      font-family:  $font-texto;
+      font-size: 16px;
+      }
+
+}

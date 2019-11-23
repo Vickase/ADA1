@@ -1,0 +1,47 @@
+@import "common/variables";
+@import "sections/nav";
+@import "sections/home";
+@import "sections/about-us";
+@import "sections/services";
+@import "sections/why-choose-us";
+@import "sections/portfolio";
+@import "sections/testimonials";
+@import "sections/team";
+@import "sections/clients";
+@import "sections/contact";
+@import "components/card";
+@import "components/cards2";
+@import"common/mixins";
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.cabecera {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .titulo {
+    font-family: $font-title;
+    font-weight: $font-weight-cabecera;
+    color: $font-color-cabecera;
+    font-size: $font-size-title;
+  }
+  p {
+    font-family: $font-texto;
+    color: $font-color-sub-aboutus;
+    text-align: center;
+    margin:0;
+    font-size:$fontsize-reg;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                .label{
+                    display: block;
+                    margin-bottom: 10px;
+                }
+                button{
+                    margin-top: 10px;
+                }
+                
+                </style>
+        </head>
+        <body>
+            <h1> Datos Personales</h1>
+            <div>
+                <form>
+                    <label class="label">Nombre
+                        <input type="text" name="" value="" placeholder="Nombre">
+                    </label>
+                    
+                    <label class="label">Apellido
+                            <input type="text" name="" value="" placeholder="Apellido">
+                    </label>
+                      
+                    
+                        <label class="label"> Edad
+                            <input type="number" name="" value="0" min="0" max="100" >
+                        </label>
+                    
+                        <label class="label"> Fecha de Nacimiento
+                            <input type="date">
+                        </label>
+                        <label class="label">Telefono <input type="text" placeholder="numero de telefono"></label>
+                        <label>Celular <input type="text" placeholder="numero de celular"></label>
+                    
+                        <label class="label"> Tipo de Documento
+                            <select>
+                                <option></option>
+                                <option>Pasaporte</option>
+                                <option>D.N.I</option>
+                            </select>
+                            <input type="text" maxlength="8">
+                        </label>
+                        
+                        <label class="label"> Email
+                            <input type="email" placeholder="yourEmail@mail.com">
+                        </label>
+                
+                        <label>Hombre <input name="genero" value="Hombre" type="radio"/></label>
+                        <label>Mujer <input name="genero" value="Mujer" type="radio"/></label>
+                        <button class="label" type="submit">Submit</button>
+                    
+                    
+                </form>
+            </div>
+        </body>
+    </html>

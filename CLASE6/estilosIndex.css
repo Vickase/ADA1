@@ -1,0 +1,47 @@
+html, body{
+    margin:0;
+}
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url('fondo2.jpg');
+    background-size: cover;/*o ponerle 100%
+    background-repeat: no-repeat;*/
+    background: url('img/fondo2.jpg') center no-repeat;/*short-hand*/
+    background-size: cover;
+
+}
+li {
+    margin-bottom: 25px;
+}
+.link-button {
+    border: 1px solid #333;
+    padding: 5px;
+}
+.link-button:active {
+    color: green;
+}
+.link-button:visited {
+    color:red;
+}
+​
+.link-button:hover{
+    background-color: #333;
+    color: white;
+    cursor: help;
+}
+​
+li:first-child{
+    background-color: teal;
+}
+li:last-child{
+    background-color: crimson;
+}
+​
+li:hover + li {
+    background-color: gray;
+} 
+​
+li:hover ~ li {
+    background-color: gray;
+} 

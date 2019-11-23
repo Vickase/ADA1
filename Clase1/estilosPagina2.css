@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.border-parrafo{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+.centrado{
+    text-align: center;
+}
+.display{
+    display: inline-block;
+    width: 33%;
+    border: 1px solid black;
+    text-align: left;
+}
+.displayDiv{
+    
+    display: block;
+    text-align: center;
+    box-sizing: border-box;  
+}
+img{
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+.columna{
+    box-sizing: border-box;
+    width:50%;
+    vertical-align: top;
+    border: 1px solid black;
+    float: left;/*Me sale el aviso de que cancela al inline-block. y pasa a funcionar como block en vez de inline-block*/
+}
+.columna2{
+    box-sizing: border-box;
+    width:50%; 
+    border: 1px solid black;
+    float: right;
+}
+.parrafoDiv{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+.border-radius{
+    border: 10px solid blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+    color: aqua;
+
+}
+

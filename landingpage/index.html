@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Noxu Cloth Shopping</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- NAV BAR -->
+
+    <header class="header-nav">
+      <section class="area-noxu">
+        <p class="titulo-nav">Noxu</p>
+      </section>
+
+      <div class="contenedor">
+        <label for="check-box" class="btn">
+          <i class="fa fa-bars  hamburguesa" aria-hidden="true"></i>
+        </label>
+        <input type="checkbox" name="checkbox" class="checkbox" id="check-box"/>
+
+        <nav>
+          <div class="contenedor-menu">
+            <ul>
+              <li><a class="palabraHome" href="#">Home</a></li>
+              <li><a href="#">Woman</a></li>
+              <li><a href="#">Man</a></li>
+              <li><a href="#">Unisex</a></li>
+              <li class="dropdown">
+                <label for="downarrow">
+                <a>Accesories
+                  <i class="fa fa-caret-down flecha" aria-hidden="true"></i></a>
+                </label>
+                <input type="checkbox" name="downarrow" class="checkbox2" id="downarrow"/>
+                <ul class="dropdown-menu">
+                  <li><a>Watches</a></li>
+                  <li><a>Chains</a></li>
+                  <li><a>Earrings</a></li>
+                  <li><a>Hats</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="div-form">
+              <form class="formulario">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  name="search"
+                  class="search"
+                />
+                <button class="search-button" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN-->
+
+    <div>
+      <main class="hero">
+        <h1 class="hero-title">LIMITED COLLECTION</h1>
+        <h2 class="sub-title">Noxu Fabrics International</h2>
+      </main>
+
+      <!--FEATURE PRODUCTS -->
+
+      <section class="seccion-featured" id="feature">
+        <header class="col-contenedor">
+          <div class="recuadro"> <!-- Acá en realidad es un button, no un div. tener en cuenta para el tp -->
+            <p class="texto-view">View All</p>
+          </div>
+          <h2 class="featured-title">Featured Products</h2>
+        </header>
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/001.jpg" />
+            <article class="product-info">
+              <p class="product-name">Abnormality Plain White</p>
+              <p class="precio">$17.99</p>
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/002.jpg" />
+            <article class="product-info">
+              <p class="product-name">Denim Jacket</p>
+              <p class="precio">$49.99</p>
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/003.jpeg" />
+            <article class="product-info">
+              <p class="product-name">Dark Red Bomber</p>
+              <p class="precio">$39.99</p>
+
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/004.jpg" />
+            <article class="product-info">
+              <p class="product-name">Ripped Blue</p>
+              <p class="precio">$39.99</p>
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/005.jpeg" />
+            <article class="product-info">
+              <p class="product-name">Spooky Fingers</p>
+              <p class="precio">$34.99</p>
+
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img class="photo-card" src="imagenes/006.jpeg" />
+            <article class="product-info">
+              <p class="product-name">Early X-Mas Party</p>
+              <p class="precio">$44.99</p>
+              <div class="iconos">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BROWSE ITEMS -->
+
+      <section class="seccion" id="browse-items">
+        <header class="col-contenedor">
+          <h2 class="titulo-items">Browse Items</h2>
+        </header>
+        <div class="card-container">
+          <div class="photo-container">
+            <div class="imagen-texto"> <!-- estas son background-images!! modificar más adelante D: -->
+              <p class="texto-imagen">Shoes</p>
+              <img class="photo-items" id="shoes" src="imagenes/shoes.jpg" />
+            </div>
+            <div class="imagen-texto">
+              <p class="texto-imagen">Jeans</p>
+              <img class="photo-items" id="jeans" src="imagenes/jeans.jpeg" />
+            </div>
+            <div class="imagen-texto">
+              <p class="texto-imagen">Shirts</p>
+              <img class="photo-items " id="shirts" src="imagenes/shirts.jpg" />
+            </div>
+            <div class="imagen-texto">
+              <p class="texto-imagen">Outfits</p>
+              <img
+                class="photo-items"
+                id="outfits"
+                src="imagenes/outfits.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- CONTACT US-->
+    <footer class="pie-pagina" id="pie">
+      <section class="col-contenedor">
+        <h2 class="titulo-items">Get to know us</h2>
+        <div class="contacto-address">
+          <h3 class="subtitulo">Address</h3>
+          <p class="texto">1234 Lorem Street, Los Angeles 99999</p>
+          <h3 class="subtitulo">Contact info</h3>
+          <p class="separador">Phone Number</p>
+          <p class="texto">(323)-555-5555</p>
+          <p class="separador">Email</p>
+          <p class="texto">noxu@noxmail.com</p>
+          <p class="separador">Fax:</p>
+          <p class="texto">+(0) 000 000 002</p>
+        </div>
+        <h2 class="titulo-items">Feedback</h2>
+        <p class="parrafo">
+          Thank you for browsing this site, please feel free to give us feedback
+          in the survey below.
+        </p>
+        <div class="recuadro">
+          <p class="texto-view">Take Survey</p>
+        </div>
+        <div class="div-info">
+          <h3 class="info">Information</h3>
+          <a class="link" href="#">Privacy Policy</a>
+          <a class="link" href="#">About Us</a>
+          <a class="link" href="#">Our Mission</a>
+        </div>
+        <div class="map-container">
+          <img class="mapa" src="imagenes/map.jpg" />
+        </div>
+        <p class="parrafo2">
+          Thank you for visiting this page, this was made from scratch by
+          <a href="#">Erick Gonzalez.</a> All information displayed on this
+          webpage is fictional
+        </p>
+        <p class="parrafo2">View More Of My<a href="#"> Projects </a></p>
+        <div class="iconos-web">
+          <a href="https://www.freecodecamp.org/forum/u/erickkg/summary"
+            ><i class="fa fa-free-code-camp" aria-hidden="true"></i
+          ></a>
+          <a href="https://codepen.io/login"
+            ><i class="fa fa-codepen" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.instagram.com/webdev_erickkg/?hl=en"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

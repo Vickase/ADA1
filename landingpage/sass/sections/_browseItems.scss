@@ -1,0 +1,70 @@
+.seccion {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  .col-contenedor {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo-items {
+      display: flex;
+      font-size: 35px;
+      padding: 0px 15px;
+      text-align: center;
+      box-sizing: border-box;
+      align-content: center;
+    }
+  }
+  .card-container {
+    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 10px;
+    justify-content: center !important;
+    padding: 0px 20px;
+    .photo-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .imagen-texto {
+        display: flex;
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        align-content: center;
+        .texto-imagen {
+          position: absolute;
+          font-size: 30px;
+          display: flex;
+          font-weight: $font-weight-bold;
+          justify-content: space-evenly;
+          width: 100%;
+        }
+
+        .photo-items {
+          margin-bottom: 25px;
+          max-width: 100%;
+          border-radius: 5px;
+
+          &#shoes {
+            min-height: 200px;
+            height: 80px;
+            max-height: 208px;
+          }
+          &#jeans {
+            min-height: 200px;
+            height: 240px;
+            width: 100%;
+          }
+          &#shirts {
+            max-height: 220px;
+          }
+          &#outfits {
+            max-height: 550px;
+          }
+        }
+      }
+    }
+  }
+}

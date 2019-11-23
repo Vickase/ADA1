@@ -1,0 +1,136 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.seccion {
+  width: 350px;
+  height: 503px;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 40vw;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.encabezado {
+  width: 100%;
+  height: 64%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  
+}
+.animacion{
+  transition: all 0.2s ease-in 0.1s;
+}
+.imagen {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800;
+  color: #333333;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 8px;
+  position: relative;
+}
+
+h2 {
+  font-weight: 400;
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.cartelito{
+  background-color: #e74c3c;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.circulo{
+  border:10px solid #e74c3c;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top:10px;
+  right: 10px;
+  
+}
+.marker{
+  position: absolute;
+  bottom:0;
+  padding: 0.70em 1em;
+  font-size:1em;
+
+}
+
+.articulo {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: white;
+  height: 181px;
+}
+
+.texto {
+  color: #666565;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+  /*display: none;*/
+  opacity: 0;
+  max-height: 0;
+}
+
+.pie-pagina {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 10%;
+  box-sizing: border-box;
+  color: #acacac;
+  font-size: 10px;
+  padding-bottom: 2px;
+  margin: 0;
+  text-align: left;
+  padding:0px 5px;
+}
+/* **************************************** */
+/* HOVER */
+
+.seccion:hover .texto {
+  display: inline-block;
+  opacity: 1;
+  max-height: 281px;
+  padding: 0px 10px;
+  transition: all 0.8s ease-in;
+} 
+
+.seccion:hover .encabezado {
+  height: 281px;
+  overflow: hidden;
+  
+ 
+}
+
+.seccion:hover .imagen{
+  transition: transform .5s ease;
+  transform: scale(1.5);
+  filter: brightness(0.8);
+}
+
+.seccion:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+span{
+  padding-left:25px;
+}

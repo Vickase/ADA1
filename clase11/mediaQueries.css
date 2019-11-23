@@ -1,0 +1,62 @@
+.seccion {
+  width: 100%;
+
+  display: inline-block;
+}
+
+@media (min-width: 600px) {
+  .articulo {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px 0px;
+  }
+  p {
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .articulo {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    /*margin: 5px 0px;*/
+  }
+  p {
+    padding: 10px;
+  }
+  .a1, .a2{
+      width:49%;
+      margin-right:5px;
+    }
+    .a2{
+        float:right;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 992px){
+    .articulo {
+        display: inline-block;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 32%;
+        vertical-align: top;
+        margin: 5px 5px;
+      }
+      p {
+        padding: 10px;
+      }
+      /*.a1{
+          margin-right:5px;*/
+        
+        /*.a2{
+            margin:0px 5px;
+        }*/
+        /*.a3{
+          margin-left:0;
+          margin-right: 5px;
+        }*/
+    }   

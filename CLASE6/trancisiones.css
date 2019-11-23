@@ -1,0 +1,12 @@
+.overlay{
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+input:checked + .overlay{
+opacity: 1;
+
+}

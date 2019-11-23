@@ -1,0 +1,76 @@
+body{
+    background-color: #e4f2eb;
+    margin: 0;
+}
+.section{
+    width:75%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+}
+
+#articulo{
+    float:left;
+    /*border: 1px solid black;*/
+    width:35%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0,0,.2);
+    display: block;
+}
+#aside{
+    float:right;
+    width:20%;
+    align-content: top;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0,0,.2);
+    display: block;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+
+}
+.clearfix{
+    clear:both;
+}
+#footer{
+    box-sizing: border-box;
+    text-align: center;  
+    margin-top:120px;
+    font-family: 'Lato', sans-serif;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    color: #e4f2eb;
+    height: 100px;
+    
+
+}
+h1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+font-size: 50px;
+
+}
+#articulo2{
+    display: block;
+    float:left;
+    /*border: 1px solid black;*/
+    width:35%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 3px;
+    margin-left:30px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0,0,.2);
+    
+
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+}

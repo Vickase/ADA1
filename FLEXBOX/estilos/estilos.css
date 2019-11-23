@@ -1,0 +1,64 @@
+.container {
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+}
+.container .item {
+  height: 250px;
+  width: 250px;
+}
+.container .item:nth-child(1) {
+  background-color: crimson;
+  color: white;
+}
+.container .item:nth-child(2) {
+  background-color: teal;
+  color: white;
+}
+.container .item:nth-child(3) {
+  background-color: tomato;
+  color: white;
+}
+
+.c1 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.c1 > .item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.c2 {
+  flex-direction: row-reverse;
+}
+.c2 > .item {
+  align-items: center;
+  justify-content: center;
+}
+
+.c3 {
+  flex-direction: column;
+}
+
+.c4 {
+  flex-direction: column-reverse;
+}
+
+.c5 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.c6 {
+  flex-direction: row-reverse;
+  align-items: stretch;
+  justify-content: flex-end;
+  height: 450px;
+}
+.c6 > .item {
+  height: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,20 @@
+#our-clients{
+    background-color:#ecf5ff;
+    padding: $padding-general;
+    .tarjeta{
+        background-color: #ffffff;
+        padding: 64px;
+        height: 160px;
+        box-sizing: border-box;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        border: 1px solid #d6eaff;        
+        .logo{   
+            max-width: 100%;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.header-nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  .area-noxu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    flex: 1;
+    .titulo-nav {
+      font-weight: $font-weight-black;
+      font-size: 2em;
+      display: flex;
+      align-content: flex-start;
+      padding: 5px 15px;
+    }
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+
+    .btn {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      font-size: 40px;
+    }
+    .checkbox {
+      display: flex;
+      padding: 5px 5px;
+      justify-content: center;
+      display: none;
+    }
+    .checkbox2{
+      display: flex;
+      position: relative;
+      display: none;
+    }
+    nav {
+      > div {
+        /* clase contenedor-menu */
+        position: absolute;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.75s ease;
+        z-index: 9;
+
+        ul {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+
+          li {
+            padding-left: 10px;
+            .palabraHome {
+              color: $color-font;
+            }
+            a {
+              display: block;
+              padding: 10px 0px;
+              text-decoration: none;
+              font-size: 20px;
+              color: rgba(255, 255, 255, 0.75);
+            }
+          }
+          .dropdown {
+            padding-right: 25px;
+            display: inline;
+
+            .dropdown-menu {
+              background-color: white;
+              border-radius: 5px;
+              overflow: hidden;
+              max-height: 0;
+              transition: max-height 0.75s ease;
+
+              a {
+                color: black;
+              }
+            }
+          }
+        }
+        .div-form {
+          display: flex;
+          .formulario {
+            padding-left: 10px;
+            width: 100%;
+            font-size: $font-size;
+            margin: 8px 0px;
+
+            .search {
+              height: 38px;
+              width: 74%;
+              border-radius: 5px;
+              border: none;
+              color: #495057;
+              margin-right: 5px;
+              padding-left: 5px;
+              box-sizing: border-box;
+            }
+            .search-button {
+              background-color: transparent;
+              color: #008cba;
+              border: 1px solid #008cba;
+              border-radius: 5px;
+              height: 38px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.checkbox:checked + nav > .contenedor-menu {
+  max-height: 450px;
+} 
+#downarrow:checked + .dropdown-menu {
+  max-height: 220px;
+
+}

@@ -1,0 +1,59 @@
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 2px 10px 30px 2px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0 20px 10px 0 rgba(122, 149, 221, 0.1);
+  .iconos {
+      display: inline;
+      position: absolute;
+      left:-20px;
+      line-height: 2;
+      
+    .icon {
+      font-size: 70px;
+      
+    }
+    .icon1{
+        color: #ff689b;
+    }
+    .icon2{
+        color: #e9bf06;
+    }
+    .icon3{
+        color: #3fcdc7;
+    }
+    .icon4{
+        color: #41cf2e;
+    }
+    .icon5{
+        color: #d6ff22;
+    }
+    .icon6{
+        color: #4680ff;
+    }
+  }
+  .texto {
+    h2 {
+      font-size: 20px;
+      font-family: $font-title;
+      font-weight: 700;
+      color: $font-color-card;
+      margin-top: 0;
+      margin-left: 45px;
+    }
+    p{
+        font-family: $font-texto;
+        font-size: $fontsize-sm;
+        margin-left: 45px;
+        color:$font-color-p-cabecera;
+        line-height: 25px;
+
+    }
+  }
+}

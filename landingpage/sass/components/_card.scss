@@ -1,0 +1,41 @@
+.card {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 26px;
+    border-radius: 3px;
+    .photo-card {
+      width: 100%;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    .product-info {
+      color: #212529;
+      height: 120px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+      .product-name {
+        font-size: 20px;
+        width: 100%;
+        padding: 2px 14px;
+        margin-bottom: 0;
+      }
+      .precio {
+        font-size: 20px;
+        width: 50%;
+        padding: 2px 14px;
+      }
+      .iconos {
+        display: flex;
+        position: absolute;
+        bottom: 13px;
+        padding: 2px 14px;
+      }
+    }
+  }

@@ -1,0 +1,90 @@
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .boton{
+        cursor: pointer;
+        padding:6px 20px; 
+        margin:15px 15px 15px 0px;
+        font-family: $font-texto;
+        color:$color-button-icon;
+        border-radius: 20px;
+        background:$choose-text-color;
+        font-size: 12px;
+
+    }
+}
+
+
+
+.imagen{
+    height: 250px;
+    width: 344px;
+    overflow: hidden;
+    float: none;
+    margin: 17px 18px 20px;
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    box-sizing: border-box;
+
+    .celular{
+        overflow: hidden;
+        max-width: 100%;
+        position: absolute;
+        bottom: -46px;
+    }
+    .compu{
+        overflow: hidden;
+        max-width: 109%;
+        position: relative;
+        right: 18px;
+    }
+    .cel{
+        overflow: hidden;
+        max-width: 100%;
+        position: relative;
+        bottom: 140px;
+
+    }
+    .berlin{  
+        overflow: hidden;
+        max-width: 100%;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .web{
+        overflow: hidden;
+        max-width: 100%;
+        position: relative;
+        bottom: 133px;
+    }
+    .manos{
+        overflow: hidden;
+        max-width: 120%;
+        position: relative;
+        right: 36px;
+    }
+
+    .thank{
+        overflow: hidden;
+        max-width: 113%;
+        position: relative;
+        right: 23px;
+    }
+
+    .tarjetas{
+        overflow: hidden;
+        max-width: 111%;
+        position: relative;
+        right: 13px;
+    }
+    .tablet{
+        overflow: hidden;
+        max-width: 110%;
+        position: relative;
+        right: 19px;
+    }
+}

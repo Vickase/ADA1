@@ -1,0 +1,63 @@
+.container {
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+}
+.c1 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.c2 {
+  flex-direction: row-reverse;
+}
+.c3 {
+  flex-direction: column;
+}
+.c4 {
+  flex-direction: column-reverse;
+}
+.c5 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.c6 {
+  flex-direction: row-reverse;
+  align-items: stretch;/* Align-items solo para el padre. Le seteo una altura mayor asi los items la reconocen. */
+  justify-content: flex-end; /* como está en row-reverse, se intercambia el principio y fin del container, por eso el final queda en la izquierda */
+  height: 450px;
+  display: flex;/* la propiedad display:flex, no se hereda. */
+}
+
+.item {
+  height: 250px;
+  width: 250px;
+}
+.c6 .item {
+  height: auto;/* altura en auto asi los items se amoldan gracias a align-items:stretch a la altura del padre. */
+}
+.c1 > .item {
+  align-items: center;
+  justify-content: center;
+  display: flex;/* Borrar dsps, porque container ya la tiene */
+}
+
+.c2 > .item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.item:nth-child(1) {
+  background-color: crimson;
+  color: white;
+}
+.item:nth-child(2) {
+  background-color: teal;
+  color: white;
+}
+.item:nth-child(3) {
+  background-color: tomato;
+  color: white;
+}
+
+/***/

@@ -1,0 +1,11 @@
+.position{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    position: relative;
+}
+.icon {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
